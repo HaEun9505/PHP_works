@@ -1,0 +1,25 @@
+<html>
+	<body>
+		<!-- method를 생략하면 get이 default값 -->
+		<form action="form.php" method="post"><!-- 사용자가 입력한 정보를 url 파라미터로 만들어냄 -->
+		<p><input type="text" name="title" placeholder="Title"></p>
+		<p><textarea name="description"></textarea></p>
+		성별: <label for="male">남자</label><!-- name - 같은 성격의 버튼임을 명시 -->
+				<input type="radio" name="gender" id="male">,
+		   <label for="female">여자</label>
+				<input type="radio" name="gender" id="female"><br><br>
+		
+		<fieldset>
+			<legend>부가정보</legend>
+				취미: <label>영화감상
+					<input type="checkbox" name="hobby"></label>
+					<label>음악감상
+					<input type="checkbox" name="hobby"></label>
+					<label>독서
+					<input type="checkbox" name="hobby"></label>
+		</fieldset>
+		<br>
+		<input type="submit" value="전송"><!-- 서버에 입력한 값을 action에 명시해놓은 url에 name으로 전송 -->
+		</form>
+	</body>
+</html>
