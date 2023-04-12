@@ -1,5 +1,5 @@
 <?php
-	require_once('lib/print.php');
+	require_once('lib/print.php');	//함수 재선언 에러 방지
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +13,7 @@
 		?>
 	</title>
 	<style>
-		print_title(){color:rgb(255, 153, 153);}
+		
 	</style>
 </head>
 <body>

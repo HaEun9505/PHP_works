@@ -28,7 +28,7 @@
 	<h2>return</h2>	
 	<?php
 		function sum2($left, $right){	//결과값을 출력하지 않고 리턴
-			return $left+$right;
+			return $left*$right;
 		}
 		//print(sum2(2,4));
 		file_put_contents('result.txt', sum2(2,4));

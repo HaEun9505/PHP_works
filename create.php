@@ -1,6 +1,6 @@
 <?php
-	require('lib/print.php');
-	require('view/top.php');
+	require_once('lib/print.php');
+	require_once('view/top.php');
 ?>
 
 	<a href="create.php">create</a>
@@ -16,5 +16,5 @@
 		</p>
 	</form>
 <?php
-	require('view/bottom.php');
+	require_once('view/bottom.php');
 ?>
